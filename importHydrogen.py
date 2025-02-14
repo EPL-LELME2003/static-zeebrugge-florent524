@@ -2,7 +2,7 @@ import pyomo.environ as pyo
 
 # Create a Pyomo model
 model = pyo.ConcreteModel()
-florent guillaume
+
 # Define model parameters
 ##########################################
 ############ CODE TO ADD HERE ############
@@ -24,7 +24,7 @@ florent guillaume
 ##########################################
 
 # Specify the path towards your solver (gurobi) file
-solver = pyo.SolverFactory('...')
+solver = pyo.SolverFactory(C:\Users\FFLOR)
 sol = solver.solve(model)
 
 # Print here the number of CH4 boats and NH3 boats
