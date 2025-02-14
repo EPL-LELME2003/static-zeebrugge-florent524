@@ -2,7 +2,7 @@ import pyomo.environ as pyo
 
 # Create a Pyomo model
 model = pyo.ConcreteModel()
-
+florent guillaume
 # Define model parameters
 ##########################################
 ############ CODE TO ADD HERE ############
